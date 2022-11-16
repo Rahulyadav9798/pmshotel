@@ -42,6 +42,6 @@ app.get("/api/search", async (request, response) => {
     response.json([]);
   }
 });
-app.listen(process.env.PORT || 3000, () => {
+app.listen(process.env.PORT, () => {
   console.log(`Example app listening`);
 });
